@@ -1,0 +1,36 @@
+// -*- mode: conf -*-
+// Swap the functions of the left Win key and the left Ctrl key.
+// TODO: XF86Search, Win (default)
+partial modifier_keys 
+xkb_symbols "swapwin" {
+    replace key <LWIN> {[ Control_L ]};
+    replace key <LCTL> {[ Super_L ]};
+    modifier_map Control { <LWIN> };
+};
+
+
+// Acer C720 ChromeBook
+// TODO: reverse, as in ChromeOS
+partial function_keys
+xkb_symbols "fn_keys" {
+    include "inet(nav_common)"
+    key <FK01>  {[ F1, F1, XF86Back ]};
+    key <FK02>  {[ F2, F2, XF86Forward ]};
+    key <FK03>  {[ F3, F3, XF86Reload ]};
+    key <FK04>  {[ F4, F4 ]};
+    key <FK05>  {[ F5, F5 ]};
+    key <FK06>  {[ F6, F6, XF86MonBrightnessDown ]};
+    key <FK07>  {[ F7, F7, XF86MonBrightnessUp ]};
+    key <FK08>  {[ F8, F8, XF86AudioMute ]};
+    key <FK09>  {[ F9, F9, XF86AudioLowerVolume ]};
+    key <FK10>  {[ F10, F10, XF86AudioRaiseVolume ]};
+};
+
+partial hidden alphanumeric_keys
+xkb_symbols "editing" {
+    key <UP> {[ Up, Up, Prior]};
+    key <LEFT> {[ Left, Left, Home ]};
+    key <DOWN> {[ Down, Down, Next ]};
+    key <RGHT> {[ Right, Right, End ]};
+    key <BKSP> {[ BackSpace, BackSpace, Delete ]};
+};

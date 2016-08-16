@@ -1,0 +1,10 @@
+// The right Ctrl key (while pressed) chooses the third shift level,
+// and Compose is mapped to its second level.
+partial modifier_keys
+xkb_symbols "rctl_switch_multikey" {
+  key <RCTL> {
+    type[Group1]="TWO_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Shift, Multi_key, ISO_Level3_Shift, Multi_key, ISO_Level3_Shift, Multi_key ]
+  };
+  include "level3(modifier_mapping)"
+};
