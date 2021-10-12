@@ -106,6 +106,6 @@ Support for Russian using UTF8 and the russian-unipunct-ng input method.")
 
 (setq default-input-method "russian-unipunct-ng")
 
-(provide 'unipunct)
+(provide 'unipunct-ng)
 
 ;;; unipunct-ng.el ends here
