@@ -8,12 +8,12 @@ xkb_symbols "unipunct-ng-r" {
  key <AD02> { [ Cyrillic_be, Cyrillic_BE ] };
  key <AD03> { [ Cyrillic_u, Cyrillic_U, Cyrillic_yu, Cyrillic_YU ] };
  key <AD04> { [ Cyrillic_ka, Cyrillic_KA, registered ] };
- key <AD05> { [ Cyrillic_ie, Cyrillic_IE, Cyrillic_e, Cyrillic_E ] };
+ key <AD05> { [ Cyrillic_ie, Cyrillic_IE, Ukrainian_ie, Ukrainian_IE] };
  key <AD06> { [ Cyrillic_en, Cyrillic_EN ] };
  key <AD07> { [ Cyrillic_ghe, Cyrillic_GHE, Ukrainian_ghe_with_upturn, Ukrainian_GHE_WITH_UPTURN] };
  key <AD08> { [ Cyrillic_sha, Cyrillic_SHA, Cyrillic_shcha, Cyrillic_SHCHA ] };
  key <AD09> { [ Cyrillic_zhe, Cyrillic_ZHE ] };
- key <AD10> { [ Cyrillic_ze, Cyrillic_ZE, Ukrainian_ie, Ukrainian_IE ] };
+ key <AD10> { [ Cyrillic_ze, Cyrillic_ZE, Cyrillic_e, Cyrillic_E  ] };
 
  key <AC01> { [ Cyrillic_ha, Cyrillic_HA, Cyrillic_ef, Cyrillic_EF] };
  key <AC02> { [ Cyrillic_yeru, Cyrillic_YERU, Ukrainian_i, Ukrainian_I ] };
